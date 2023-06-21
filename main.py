@@ -12,11 +12,15 @@ def test_list():
   for i in tests:
     print(i+1, tests[i])
   print("end of category list.")
-  user_test_category = int(input("test category (e.g: 1)"))
+  user_test_category = int(input("test category (e.g: 1: )"))
+  test_category = eval(user_test_category)
 
 def test_list_sub_categories():
   print("test sub-categories:")
   for i in user_test_category:
-    print(i+1)
+    print(i+1, test_category[i])
+  print("end of sub-category list.")
+  user_test_sub_category = input("test sub-category (e.g: 1': ")
+  test_sub_category = eval(user_test_sub_category)
 
 def read()
