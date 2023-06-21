@@ -1,3 +1,5 @@
+import tomllib
+
 planet = int(input("planet:"))
 year = int(input("year: "))
 
@@ -13,5 +15,8 @@ def test_list():
   user_test_category = int(input("test category (e.g: 1)"))
 
 def test_list_sub_categories():
-  
-  
+  print("test sub-categories:")
+  for i in user_test_category:
+    print(i+1)
+
+def read()
